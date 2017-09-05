@@ -1,3 +1,0 @@
-RDE_DyM.C
-
-EXE = $(FOAM_USER_APPBIN)/RDE_DyM
