@@ -78,10 +78,10 @@ int main(int argc, char *argv[])
 
 #     include "readSolidMechanicsControls.H"
 
-rho = (rho_b-rho_m)*(pow(o,m)/(pow(o,m)+pow(oS,m))) + rho_m;
+rho = (rho_m-rho_b)*(pow(oS,m)/(pow(o,m)+pow(oS,m))) + rho_b;
 rho_v = rho;
-E_v = (Eb-Em)*(pow(o,m)/(pow(o,m)+pow(oS,m))) + Em;
-nu_v = (nu_b-nu_m)*(pow(o,m)/(pow(o,m)+pow(oS,m))) + nu_m;
+E_v = (Em-Eb)*(pow(oS,m)/(pow(o,m)+pow(oS,m))) + Eb;
+nu_v = (nu_m-nu_b)*(pow(oS,m)/(pow(o,m)+pow(oS,m))) + nu_b;
 
 mu = E_v/(2*(1+nu_v));
 lambda = nu_v*E_v/((1+nu_v)*(1-2*nu_v));
