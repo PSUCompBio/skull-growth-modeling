@@ -15,11 +15,11 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-application     triRD_solid_MM_4;
+application     RDE_DM;
 
 startFrom       latestTime;
 
-startTime       0;
+startTime       345600;
 
 stopAt          endTime;
 

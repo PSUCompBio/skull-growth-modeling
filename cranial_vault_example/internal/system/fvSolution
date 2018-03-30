@@ -41,14 +41,7 @@ solvers
         relTol          0;
     }
 
-   d
-    {
-        solver          PCG;
-        preconditioner  DIC;
-        tolerance       1e-07;
-        relTol          0;
-    }
-
+   
    Da_v
     {
         solver          PCG;
@@ -65,16 +58,7 @@ solvers
         relTol          0;
     }
 
-  Dd_v
-    {
-        solver          PCG;
-        preconditioner  DIC;
-        tolerance       1e-07;
-        relTol          0;
-    }
-
-
-
+ 
     DU
     {
         solver          PCG;

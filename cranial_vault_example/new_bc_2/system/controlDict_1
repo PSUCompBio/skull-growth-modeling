@@ -15,7 +15,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-application     triRD_solid_MM_4;
+application     RDE_DM
 
 startFrom       latestTime;
 
